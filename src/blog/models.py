@@ -72,10 +72,10 @@ class Entry(models.Model):
 # for i in get_entry_by_blog:
 #     print(i)
 
-# 8) Entry va Author orasida ManyToMany aloqalar bo‘lganini inobatga oling. Mualliflaridan “John” bo‘lgan postlarni
-# aniqlang.
-get_entry = Entry.objects.filter(authors__name='John')
-print(get_entry)
+# # 8) Entry va Author orasida ManyToMany aloqalar bo‘lganini inobatga oling. Mualliflaridan “John” bo‘lgan postlarni
+# # aniqlang.
+# get_entry = Entry.objects.filter(authors__name='Ringo')
+# print(get_entry)
 
 # 9) Bir nechta Entry “Beatles Blog”ga tegishli bo‘lsin, shuningdek bu postlarda mualliflari orasida “George” va “Paul”
 # mavjud deb faraz qiling. Faqat “George” muallifi bor postlarni tanlab olish uchun tegishli filtr-larni qo‘llang.
